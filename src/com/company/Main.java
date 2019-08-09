@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner question = new Scanner(System.in);
-        System.out.println("Enter your Name please");
+        /*System.out.println("Enter your Name please");
         String userName = question.nextLine();
         System.out.println("Hello : " + userName + " we are so glad that you are with us today");
         //1.Приветствовать любого пользователя при вводе его имени через командную строку
@@ -52,11 +52,23 @@ public class Main {
         System.out.println("The Sum of Entered Numbers is : " + (numberOne + numberTwo + numberThree));
         System.out.println("The plural of Entered Numbers is : " + (numberOne * numberTwo * numberThree));
         //5. Ввести целые числа как аргументы командной строки, подсчитать их суммы (произведения) и вывести результат
-        // на консоль.
+        // на консоль.*/
+        System.out.println("Please enter any integer");
+        int exSix = question.nextInt();
 
-        
+        while (question.hasNextInt()) {
+            int
+            //int number6 = question.nextInt();
+           /* if (exSix % 2 == 0) {
+                System.out.println(exSix + " is Even number");
 
+            } else {
+                System.out.println(exSix + " is Odd number");
+            }*/
+        }
     }
 }
+
+
 
 
