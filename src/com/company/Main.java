@@ -136,6 +136,7 @@ public class Main {
         for (String s : array) {
             if (s.length() == 6 && s.charAt(0) + s.charAt(1) + s.charAt(2) == s.charAt(3) + s.charAt(4) + s.charAt(5)) {
                 System.out.println("It's number = " + s);
+                //6.6. «Счастливые» числа.
             }
         }
     }
