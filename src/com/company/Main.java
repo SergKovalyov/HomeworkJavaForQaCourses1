@@ -138,10 +138,7 @@ public class Main {
                 System.out.println("It's number = " + s);
                 //6.6. «Счастливые» числа.
             }
-            System.out.println("HI");
-            System.out.println("HI");
-            System.out.println("HI");
-            System.out.println("HI");
+            System.out.println("array = " + array);
         }
     }
 }
