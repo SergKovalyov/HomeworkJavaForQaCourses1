@@ -139,6 +139,7 @@ public class Main {
                 //6.6. «Счастливые» числа.
             }
             System.out.println("HI");
+            System.out.println("HI");
         }
     }
 }
